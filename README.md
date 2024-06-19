@@ -44,7 +44,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Documentation
 
 ## CPU Scheduler Report
-- [CPU Scheduler Report](https://github.com/AmanKumar-26/cpu-scheduling/blob/main/cpu-scheduler.pdf)
+- [cpu scheduler algorithim](https://github.com/AmanKumar-26/cpu-scheduling/blob/main/cpu-scheduler.pdf)
 - [CPU Scheduler Frontend Report](https://github.com/AmanKumar-26/cpu-scheduling/blob/main/cpu-scheduler_frontend.pdf)
 
 ## References
