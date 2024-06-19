@@ -42,10 +42,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 # Documentation
-               cpu_schedular Report:
-               [CPU Scheduler Report](https://github.com/AmanKumar-26/cpu-scheduling/blob/main/cpu-scheduler.pdf).
-               [CPU Scheduler Frontend Report](https://github.com/AmanKumar-26/cpu-scheduling/blob/main/cpu-scheduler_frontend.pdf).
-# Refrences 
-            [YouTube Playlist](https://youtube.com/playlist?list=PLBlnK6fEyqRitWSE_AyyySWfhRgyA-rHk&si=_SGiuph7PsqvOSms).
-            [Process Scheduling Solver](https://process-scheduling-solver.boonsuen.com/).
- 
+
+## CPU Scheduler Report
+- [CPU Scheduler Report](https://github.com/AmanKumar-26/cpu-scheduling/blob/main/cpu-scheduler.pdf)
+- [CPU Scheduler Frontend Report](https://github.com/AmanKumar-26/cpu-scheduling/blob/main/cpu-scheduler_frontend.pdf)
+
+## References
+- [YouTube Playlist](https://youtube.com/playlist?list=PLBlnK6fEyqRitWSE_AyyySWfhRgyA-rHk&si=_SGiuph7PsqvOSms)
+- [Process Scheduling Solver](https://process-scheduling-solver.boonsuen.com/)
+
