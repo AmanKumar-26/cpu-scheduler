@@ -1,0 +1,121 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif; 
+  background-color: #76ebf1;
+  color: #000000;
+}
+
+.App {
+  max-width: 1000px; 
+  margin: 20px auto; 
+  padding: 30px;
+  background: #eae4e4; 
+  box-shadow: 0 0 15px rgba(118, 113, 113, 0.1);
+  border-radius: 8px;
+}
+
+.heading {
+  text-align: left; 
+  font-size: 36px; 
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #007bff; 
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px; 
+}
+
+.input, .output {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 28px; 
+  margin-bottom: 20px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  color: #555; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px; 
+  text-align: center;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #666; 
+}
+
+form input {
+  width: calc(100% - 20px); 
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px; 
+}
+
+button.btn {
+  padding: 12px 24px; 
+  background-color: #333;
+  color: #eee;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button.btn:hover {
+  background-color: #555; 
+}
+
+button.btn-reset {
+  background-color: #c00; 
+}
+
+button.btn-reset:hover {
+  background-color: #a00; 
+}
+
+.error {
+  color: #c00; 
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.output pre {
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 6px;
+  font-family: 'Courier New', monospace;
+  overflow-x: auto; 
+}
