@@ -43,9 +43,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Documentation
                cpu_schedular Report:
-               https://github.com/AmanKumar-26/cpu-scheduling/blob/main/cpu-scheduler.pdf
-               https://github.com/AmanKumar-26/cpu-scheduling/blob/main/cpu-scheduler_frontend.pdf
+               [CPU Scheduler Report](https://github.com/AmanKumar-26/cpu-scheduling/blob/main/cpu-scheduler.pdf).
+               [CPU Scheduler Frontend Report](https://github.com/AmanKumar-26/cpu-scheduling/blob/main/cpu-scheduler_frontend.pdf).
 # Refrences 
-            https://youtube.com/playlist?list=PLBlnK6fEyqRitWSE_AyyySWfhRgyA-rHk&si=_SGiuph7PsqvOSms
-            https://process-scheduling-solver.boonsuen.com/
+            [YouTube Playlist](https://youtube.com/playlist?list=PLBlnK6fEyqRitWSE_AyyySWfhRgyA-rHk&si=_SGiuph7PsqvOSms).
+            [Process Scheduling Solver](https://process-scheduling-solver.boonsuen.com/).
  
