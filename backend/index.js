@@ -25,11 +25,7 @@ app.post('/execute', (req, res) => {
 
   fs.writeFileSync('input.txt', inputData);
 
-
-  const cppFilePath = path.join(__dirname, 'your_script.cpp');
-  const outputFilePath = path.join(__dirname, 'a.out');
-
-  exec(`g++ -o ${outputFilePath} ${cppFilePath}`, (compileError, compileStdout, compileStderr) => {
+  exec(`g++ -o a.out your_script.cpp`, (compileError, compileStdout, compileStderr) => {
     if (compileError) {
       console.error('Compilation error:', compileStderr);
       return res.status(500).json({ output: `Compilation error: ${compileStderr}` });
@@ -38,7 +34,7 @@ app.post('/execute', (req, res) => {
     console.log('Compilation successful');
 
     
-    exec(`${outputFilePath} < input.txt`, (execError, execStdout, execStderr) => {
+    exec(`a.out < input.txt`, (execError, execStdout, execStderr) => {
       if (execError) {
         console.error('Execution error:', execStderr);
         return res.status(500).json({ output: `Execution error: ${execStderr}` });
